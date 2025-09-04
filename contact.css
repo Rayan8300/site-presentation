@@ -1,0 +1,36 @@
+.retour-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.retour-btn {
+  background-color: #5865F2;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease;
+}
+
+.retour-btn:hover {
+  background-color: #404EED;
+}
+
+.discord-link {
+  font-size: 80px;
+  color: #5865F2;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.discord-link:hover {
+  transform: scale(1.1);
+  color: #404EED;
+}
+
+
+
